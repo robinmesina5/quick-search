@@ -1,0 +1,4 @@
+<!-- <input type="text" class="form-control" placeholder="Search" [(ngModel)]="employees" [ngbTypeahead]="search" /> -->
+<!-- barks at [ngbTypeahead]="search", says Can't bind to 'ngbTypeahead' since it isn't a known property of 'input'.  -->
+<input type="text" class="form-control" placeholder="Search" [(ngModel)]="model" />
+<pre>Employee: {{ model | json }}</pre>
